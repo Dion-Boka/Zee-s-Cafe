@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zee's Cafe restaurant website that displays their menu and provides more information about the restaurant.">
+    <title>Zee's Cafe</title>
+
+    <!-- styling -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
+    <link rel="shortcut icon" href="../img/zees.jpg" type="image/x-icon">
+
+    <!-- importing icons -->
+    <script src="https://kit.fontawesome.com/0acc85d45b.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="gray-bkg">
+    <!-- Beginning of Navigation Bar -->
+    <header>
+        <div class="flex">
+            <div class="flex">
+                <a href="tel:+27-67-189-5560">
+                    <i class="fa-solid fa-phone"></i>&nbsp;
+                    <p>+27-67-189-5560</p>
+                </a>
+
+                <a href="mailto:gamuchiraisililo7@gmail.com">
+                    <i class="fa-regular fa-envelope"></i>&nbsp;
+                    <p>Zee's Cafe Email</p>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <nav class="flex">
+            <a href="../" class="logo flex">
+                <img src="../img/zees.jpg" width="50" height="50" alt="Bistro Bliss Restaurant">
+                <h2>Zee's Cafe</h2>
+            </a>
+            <i class="fa-solid fa-bars" id="mobMenu"></i>
+            <ul class="navigationMenu flex">
+                <i class="fa-solid fa-xmark mobileView" id="mobExit"></i>
+                <li><a href="../">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+
+
+                <a href="./contact.html" class="basicBtn">Book A Table</a>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- End of Navigation Bar -->
+
+    <section>
+        <h1>Book a Table</h1>
+        <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.
+        </p>
+    </section>
+
+    <div class="container">
+        <form action="" class="flex">
+            <div class="inputContainer">
+                <label>Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="inputContainer">
+                <label for="time">Time</label>
+                <select name="time" id="time">
+                    <option value="8:00">8:00</option>
+                    <option value="9:00">9:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:30">12:30</option>
+                    <option value="1:30">1:30</option>
+                    <option value="2:30">2:30</option>
+                    <option value="6:30">6:30</option>
+                    <option value="7:30">7:30</option>
+                    <option value="8:30">8:30</option>
+                </select>
+            </div>
+            <div class="inputContainer">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="John Smith">
+            </div>
+            <div class="inputContainer">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" placeholder="1-234-567-435">
+            </div>
+            <div class="inputContainer">
+                <label for="num">Number of People</label>
+                <select id="num" name="num">
+                    <option value="one">1 Person</option>
+                    <option value="two">2 People</option>
+                    <option value="four">4 People</option>
+                    <option value="six">6 People</option>
+                </select>
+            </div>
+            <input type="submit" value="Book a Table" class="ctaBtn">
+        </form>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2655.268003248842!2d18.4590262!3d-34.06698699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc410704ea9bf1%3A0x40ec217eceaa72d0!2sZee&#39;s%20Cafe!5e1!3m2!1sen!2szw!4v1739107670570!5m2!1sen!2szw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <!-- Beginning of Footer -->
+    <footer class="flex">
+        <div>
+            <div class="logo flex">
+                <img src="/img/zees.jpg" Width="100" Height="100" alt="Bistro Bliss Restaurant">
+                <h2 class="heading">Zee's Cafe</h2>
+            </div>
+            <p>Homestyle Goodness, Just Around the Corner... Real food, Real people, Big Flavours & Small Prices.</p>
+            <div class="socials flex">
+                <p><i class="fa-brands fa-twitter"></i></p>
+                <p><i class="fa-brands fa-facebook"></i></p>
+                <p><i class="fa-brands fa-instagram"></i></p>
+            </div>
+        </div>
+
+        <ul>
+            <li class="heading">Pages</li>
+            <li><a href="../">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./menu.html">Pricing</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+    </footer>
+    <p class="copyright">Copyright © 2025 Zee's Cafe. All Rights Reserved. 
+         
+    </p>
+    <!-- End of Footer -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

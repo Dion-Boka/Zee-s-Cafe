@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Bistro Bliss restaurant website that displays their menu and provides more information about the restaurant.">
+    <title>Zee's Cafe</title>
+
+    <!-- styling -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
+    <link rel="shortcut icon" href="../img/zees.jpg" type="image/x-icon">
+
+
+    <!-- importing icons -->
+    <script src="https://kit.fontawesome.com/0acc85d45b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Beginning of Navigation Bar -->
+    <header>
+        <div class="flex">
+            <div class="flex">
+                <a href="tel:+27-67-189-5560">
+                    <i class="fa-solid fa-phone"></i>&nbsp;
+                    <p>+27-67-189-5560</p>
+                </a>
+
+                <a href="mailto:gamuchiraisililo7@gmail.com">
+                    <i class="fa-regular fa-envelope"></i>&nbsp;
+                    <p>Zee's Cafe Email</p>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <nav class="flex">
+            <a href="../" class="logo flex">
+                <img src="../img/zees.jpg" width="50" height="50" alt="Bistro Bliss Restaurant">
+                <h2>Zee's Cafe</h2>
+            </a>
+            <i class="fa-solid fa-bars" id="mobMenu"></i>
+            <ul class="navigationMenu flex">
+                <i class="fa-solid fa-xmark mobileView" id="mobExit"></i>
+                <li><a href="../">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+
+
+                <a href="./contact.html" class="basicBtn">Book A Table</a>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- End of Navigation Bar -->
+
+    <section>
+        <h1>Our Menu</h1>
+        <p>Satisfy your cravings with our delicious range of freshly made meals, from hearty breakfasts to mouth-watering mains. Every dish is crafted with love to bring you comfort and flavor in every bite!
+        </p>
+
+        <div class="menu-tabs flex">
+            <p class="menu-tab active-tab">All</p>
+            <p class="menu-tab">Breakfast</p>
+            <p class="menu-tab">Toasties</p>
+            <p class="menu-tab">Coffee</p>
+            <p class="menu-tab">Meal of the day</p>
+            <p class="menu-tab">R65 Specials</p>
+        </div>
+
+        <section class="flex">
+            <div class="menu-item" data-type="breakfast">
+                <img src="https://images.unsplash.com/photo-1506085569175-284ae74bb858?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG11ZXNsaXxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Muesli Cup" loading="lazy">
+                <p class="price">R45.00</p>
+                <h3>Muesli Cup</h3>
+                <p class="lightText">Comes together with a Breakie Wrap.
+                </p>
+            </div>
+            <div class="menu-item" data-type="breakfast">
+                <img src="https://images.pexels.com/photos/5961362/pexels-photo-5961362.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Fried Eggs" loading="lazy">
+                <p class="price">R40.00</p>
+                <h3>Omelette With Cheese</h3>
+                <p class="lightText">A well made omelette with cheese to fill your tummy.</p>
+            </div>
+            <div class="menu-item" data-type="breakfast">
+                <img src="https://media.istockphoto.com/id/532964640/photo/breakfast-sandwich-on-bagel-with-egg-bacon-cheese.jpg?s=612x612&w=0&k=20&c=W9B556C_BA9trrFNNHbhrCASQd8sc_INcRpiiZP9bnI="
+                    alt="Scrambled Egg" loading="lazy">
+                <p class="price">R45.00</p>
+                <h3>Scrambled Egg Baggle</h3>
+                <p class="lightText">Fluffy scrambled eggs served on a toasted bagel. Simple, satisfying, and packed with flavor!.</p>
+            </div>
+
+
+            <div class="menu-item" data-type="toasties">
+                <img src="https://toasterovenlove.com/wp-content/uploads/Egg-and-Cheese-Toast.jpg"
+                    alt="Egg and Cheese Toast" loading="lazy">
+                <p class="price">R40.00</p>
+                <h3>Egg and Cheese Toast</h3>
+                <p class="lightText">Golden toast layered with melted cheese and a perfectly cooked egg</p>
+            </div>
+            <div class="menu-item" data-type="toasties">
+                <img src="https://toasterovenlove.com/wp-content/uploads/Egg-and-Cheese-Toast.jpg"
+                    alt="Cheese and Tomato" loading="lazy">
+                <p class="price">R40.00</p>
+                <h3>Tomato and Cheese Toast</h3>
+                <p class="lightText">Crispy toast with melted cheese and fresh tomato, a classic, comforting bite!</p>
+            </div>
+            <div class="menu-item" data-type="toasties">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHwihNtvevcHQ8slY4qc4L6Q_Jd97cOW_qTw&s"
+                    alt="Chicken Mayo" loading="lazy">
+                <p class="price">R50.00</p>
+                <h3>Chicken Mayo</h3>
+                <p class="lightText">Tender chicken mixed with creamy mayo, served on fresh bread for the perfect bite!</p>
+            </div>
+            <div class="menu-item" data-type="toasties">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKbdfFpNI2jZ1eVZoINhZgWraLVCqhOyOCwQ&s"
+                    alt="Steak and Cheese" loading="lazy">
+                <p class="price">R65.00</p>
+                <h3>Steak and Cheese</h3>
+                <p class="lightText">Juicy steak and melted cheese on crispy toasted bread,a hearty, flavor-packed classic!</p>
+            </div>
+            <div class="menu-item" data-type="toasties">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKbdfFpNI2jZ1eVZoINhZgWraLVCqhOyOCwQ&s"
+                    alt="Full House Steak" loading="lazy">
+                <p class="price">R75.00</p>
+                <h3>Full House Steak</h3>
+                <p class="lightText">Grilled steak loaded with cheese, egg, and fresh toppings, a full-flavored feast!</p>
+            </div>
+
+
+            <div class="menu-item" data-type="coffee">
+                <img src="https://images.pexels.com/photos/9929394/pexels-photo-9929394.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Coffee" loading="lazy">
+                <p class="price">R20.00</p>
+                <h3>Small Coffee</h3>
+                <p class="lightText">A rich and smooth brew, perfect for a quick pick-me-up!</p>
+            </div>
+            <div class="menu-item" data-type="coffee">
+                <img src="https://images.pexels.com/photos/18945674/pexels-photo-18945674/free-photo-of-a-person-holding-a-large-mug-with-coffee.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Coffee" loading="lazy">
+                <p class="price">R25.00</p>
+                <h3>Large Coffee</h3>
+                <p class="lightText">Bold, smooth, and satisfying, the perfect big cup to fuel your day!</p>
+            </div>
+            <div class="menu-item" data-type="breakfast">
+                <img src="https://assets.epicurious.com/photos/5c4b7ab537d8ef4605419f1d/1:1/w_1600,c_limit/St.-Patrick's-Day-Breakfast-Hash-012319.jpg"
+                    alt="Full Breakfast" loading="lazy">
+                <p class="price">R65.00</p>
+                <h3>Full Breakfast
+                <p>Made with 2 eggs, 2 sausages, bacon, mushroom and toast.</p>
+            </div>
+            <div class="menu-item" data-type="meal of the day">
+                <img src="https://www.delicioustable.com/wp-content/uploads/2023/02/Chicken-Wings-wing-in-sauce.jpg"
+                    alt="Crispy Chicken Wings" loading="lazy">
+                <p class="price">R55.00</p>
+                <h3>Crispy Chicken Wings</h3>
+                <p>Crispy, golden chicken wings, crunchy on the outside, juicy on the inside!</p>
+            </div>
+            <div class="menu-item" data-type="meal of the day">
+                <img src="https://natashaskitchen.com/wp-content/uploads/2023/09/Chicken-Schnitzel-6.jpg"
+                    alt="Chicken Schnitzel" loading="lazy">
+                <p class="price">R60.00</p>
+                <h3>Chicken Schnitzel</h3>
+                <p>Crispy, golden-fried chicken fillet, tender, crunchy, and delicious!</p>
+            </div>
+            <div class="menu-item" data-type="meal of the day">
+                <img src="https://www.allrecipes.com/thmb/8fe_5pLNz2eHcpknNhL52fdq5hE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg"
+                    alt="Burgers" loading="lazy">
+                <p class="price">R65.00</p>
+                <h3>Beef Burger</h3>
+                <p>Juicy beef patty on a fresh bun with classic toppings, simple and satisfying!</p>
+            </div>
+            <div class="menu-item" data-type="meal of the day">
+                <img src="https://simplehomeedit.com/wp-content/uploads/2022/09/Southern-Fried-Chicken-Burger-1.webp"
+                    alt="Burgers" loading="lazy">
+                <p class="price">R65.00</p>
+                <h3>Chicken Burger</h3>
+                <p>Crispy or grilled chicken patty on a fresh bun with tasty toppings!</p>
+            </div>
+            <div class="menu-item" data-type="meal of the day">
+                <img src="https://emilybites.com/wp-content/uploads/2016/03/Black-and-Blue-Steak-Wraps-6b.jpg"
+                    alt="Wraps" loading="lazy">
+                <p class="price">R75.00</p>
+                <h3>Wrap (Steak)</h3>
+                <p>Tender steak wrapped with fresh greens and sauce in a soft tortilla.</p>
+            </div>
+            
+            <div class="menu-item" data-type="meal of the day">
+                <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2020/03/Buffalo-Chicken-Wrap-3.jpg"
+                    alt="Chicken Wrap" loading="lazy">
+                <p class="price">R65.00</p>
+                <h3>Chicken Wrap</h3>
+                <p>Juicy chicken, fresh greens, and sauce wrapped in a soft tortilla.</p>
+            </div>
+            <div class="menu-item" data-type="meal of the day">
+                <img src="https://www.unileverfoodsolutions.co.za/dam/global-ufs/mcos/SOUTH-AFRICA/calcmenu/recipes/ZA-recipes/red-meats-&-red-meat-dishes/boerewors-and-chakalaka-rolls/main-header.jpg"
+                    alt="Boerewers Rolls" loading="lazy">
+                <p class="price">R50.00</p>
+                <h3>Boerewers Rolls</h3>
+                <p>Grilled boerewors in a fresh roll, served with your choice of sauce.</p>
+            </div>
+            <div class="menu-item" data-type="r65 specials">
+                <img src="https://kitchenatics.com/wp-content/uploads/2020/09/Cheese-pizza-1.jpg"
+                    alt="Cheesy Pizza" loading="lazy">
+                <p class="price">R65.00</p>
+                <h3>2 Cheesy Pizza</h3>
+                <p>A classic pizza loaded with gooey, melted cheese on a crispy crust.</p>
+            </div>
+            <div class="menu-item" data-type="r65 specials">
+                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/10/14/0/FNK_TORTILLA_BREAKFAST_WRAP_H_f_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1602696910893.webp"
+                    alt="Breakie Wrap" loading="lazy">
+                <p class="price">R65.00</p>
+                <h3>Breakie Wrap + Regular Coffee</h3>
+                <p>A delicious breakie wrap filled with eggs, etc, paired with a smooth, rich coffee to kickstart your day!</p>
+            </div>
+            <div class="menu-item" data-type="r65 specials">
+                <img src="https://www.allrecipes.com/thmb/v0jQOt-s25Y1d32tz47tcHnv9rg=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20513-classic-waffles-mfs-025-4x3-81c0f0ace44d480ca69dd5f2c949731a.jpg"
+                    alt="Breakfast Waffle" loading="lazy">
+                <p class="price">R65.00</p>
+                <h3>Breakfast Waffle + Coffee</h3>
+                <p>A fluffy breakfast waffle topped with your choice of toppings, perfectly paired with a rich, smooth coffee to start your day!</p>
+            </div>
+
+        </section>
+    </section>
+
+    <!-- Beginning of Footer -->
+    <footer class="flex">
+        <div>
+            <div class="logo flex">
+                <img src="../img/zees.jpg" width="100" height="100" alt="Bistro Bliss Restaurant">
+                <h2 class="heading">Zee's Cafe</h2>
+            </div>
+            <p>Homestyle Goodness, Just Around the Corner... Real food, Real people, Big Flavours & Small Prices.</p>
+            <div class="socials flex">
+                <p><i class="fa-brands fa-twitter"></i></p>
+                <p><i class="fa-brands fa-facebook"></i></p>
+                <p><i class="fa-brands fa-instagram"></i></p>
+            </div>
+        </div>
+
+        <ul>
+            <li class="heading">Pages</li>
+            <li><a href="../">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./menu.html">Pricing</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+           </footer>
+    <p class="copyright">Copyright © 2025 Zee's Cafe. All Rights Reserved. 
+    </p>
+    <!-- End of Footer -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
